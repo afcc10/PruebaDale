@@ -12,5 +12,6 @@ namespace Models.Models
         public int Cantidad { get; set; }
         public decimal ValorTotal { get; set; }
         public int id_producto { get; set; }
+        public int id_cliente { get; set; }
     }
 }
