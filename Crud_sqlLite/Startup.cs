@@ -40,7 +40,7 @@ namespace Crud_sqlLite
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Crud_sqlLite", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PruebaDale", Version = "v1" });
             });
         }
 

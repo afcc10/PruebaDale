@@ -19,5 +19,7 @@ namespace DataAccess.Models
         public decimal ValorTotal { get; set; }
         [Column("ID_PRODUCTO")]
         public int id_producto { get; set; }
+        [Column("ID_CLIENTE")]
+        public int id_cliente { get; set; }
     }
 }
